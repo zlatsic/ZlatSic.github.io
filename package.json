@@ -1,0 +1,21 @@
+{
+  "name": "blog-vue",
+  "version": "1.0.0",
+  "description": "zlatsic blog",
+  "main": "index.js",
+  "author": "Zlatan Sičanica",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
+    "vuepress": "^1.8.0"
+  },
+  "dependencies": {
+    "remixicon": "^2.5.0"
+  }
+}
