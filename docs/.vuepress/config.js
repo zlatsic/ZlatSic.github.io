@@ -15,5 +15,4 @@ module.exports = {
             {text: 'Contact', link: '/contact.html'}
         ]
     },
-    base: '/blog-vue/'
 }
