@@ -130,3 +130,5 @@ minimally (if we ignore the GitHub's limitations). I like the idea of a fully
 editable site code and look forward to seeing how it would behave if I, for
 instance, tried to integrate single page applications in it (i.e. using the Vue
 library).
+
+<disqus />

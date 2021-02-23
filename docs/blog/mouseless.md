@@ -184,3 +184,5 @@ continuing my challenge, hopefully until the end of the year, and updating this
 post in case I come up with something new. Also, in case anyone is actually
 reading this and has ideas I haven't tried out, let me know in the comments
 below.
+
+<disqus />

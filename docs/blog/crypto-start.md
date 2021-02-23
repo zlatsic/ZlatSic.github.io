@@ -122,3 +122,5 @@ current worries that I have regarding the affordability of the whole endevour.
 I hope this helps anyone making their mind whether they should get started with
 mining. I might update this post according to changes in the market, but the
 edits will be clearly marked.
+
+<disqus />
