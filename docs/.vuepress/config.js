@@ -15,4 +15,7 @@ module.exports = {
             {text: 'Contact', link: '/contact.html'}
         ]
     },
+    plugins: [
+        ['@vuepress/google-analytics', { ga: 'G-9M3HSNDJLW' }]
+    ]
 }
