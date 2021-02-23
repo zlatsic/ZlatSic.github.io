@@ -5,14 +5,14 @@
         </div>
         <footer>
             <div class="social">
-                <label>Social:</label>
+                <span>Social:</span>
                 <a v-for="item in social" :href="item.link" target="blank_">
                     <span :class="'ri-' + item.icon"i /> {{ item.label }}
                 </a>
             </div>
-            <label class="copyright">
+            <span class="copyright">
                 © 2021, Zlatan Sičanica
-            </label>
+            </span>
         </footer>
     </div>
 </template>
@@ -91,7 +91,7 @@ export default {
                 display: flex;
                 align-items: center;
 
-                & > i {
+                & > span {
                     margin-right: 0.15rem;
                 }
             }

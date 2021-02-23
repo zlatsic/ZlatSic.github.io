@@ -13,7 +13,7 @@ Might be a bit late to get into it, but who knows how its value will shift. I
 decided to write this post to help any striving crypto beginners make their
 decision whether to go into this and what were the first steps I took.
 
-# Context
+## Context
 
 Recently I realized that my GTX 1050 Ti just wasn't cutting it when it came to
 training deep learning models. I decided to buy a new GPU, and figured I'd
@@ -34,7 +34,7 @@ cryptocurrency after Bitcoin and, from reading various tech blog posts and
 subreddits, it seemed like mining it with a GPU was still viable. Not to
 mention that its prices jumped a couple of days earlier.
 
-# Setting up
+## Setting up
 
 Since I already set up the GPU to train machine learning models, I already
 installed all the neccessary drivers (nVidia kernel and CUDA). I did need to
@@ -50,7 +50,7 @@ new wallet or sending payments.
 
 With everything underway, I was ready to get started with mining!
 
-# A very hot pitfall
+## A very hot pitfall
 
 I started the miner and immediately realized that my PC was becoming really
 hot. Big deal, I expected it, the Internet said it would. What I did not
@@ -60,14 +60,14 @@ the miners command line arguments and saw that there was an option for mining
 intensity. I set it to a lower than default value and the problem stopped.
 Lesson of the day, RTFM.
 
-# Pitfall 2: electric boogaloo
+## Pitfall 2: electric boogaloo
 
 My mining operation was now running smoothly, but I still wasn't getting the
 hashrates I saw people online reporting with my GPU (even considering lower
 intensity). So I decided to overclock my GPU. It turned out that my power
-consumption was unneccessarily high so I dropped it from 280W to 130 (that's
-why the boogaloo is electric). I also underclocked the GPU core clock, but
-overclocked the memory clock. I used the guide found
+consumption was unneccessarily high so I dropped it from 280W to 130. I also
+underclocked the GPU core clock, but overclocked the memory clock. I used the
+guide found
 [here](https://www.nicehash.com/blog/post/nvidia-rtx-3000-series-overclocking-guide-to-increase-mining-profits)
 to get the idea how much should I set my values.
 
@@ -75,7 +75,7 @@ Now my mining was being done using less power, meaning the PC wasn't getting as
 hot as it used to (the GPU is around 57°C most of the time), but a new problem
 was introduced - the miner started reporting incorrect shares.
 
-# Incorrect shares
+## Incorrect shares
 
 Shares are, from a layman's perspective, proof of work you do within your ether
 mining pool. It can happen that a share is incorrect - meaning you don't
@@ -87,7 +87,7 @@ Luckily, tweaking my overclock settings proved to be enough to solve this. I
 dropped the memory overclock frequency and managed to get it working well
 (around 1 in 1000 shares is incorrect with the current setup).
 
-# Affordability
+## Affordability
 
 I am currently working on around 50 MH/s which nets me around 0.00311 ETH
 daily - which, at the current value of ether, is around $4. Monthly, that gives
@@ -115,7 +115,7 @@ time, but only after I pass the payout threshold on my pool of the mined ether
 I'm not investing much into this anyway, so whatever happens, the risk is not
 too great.
 
-# Conclusions
+## Conclusions
 
 I described my setup, some problems I faced while getting to work and the
 current worries that I have regarding the affordability of the whole endevour.

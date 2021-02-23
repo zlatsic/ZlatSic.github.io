@@ -16,6 +16,6 @@ module.exports = {
         ]
     },
     plugins: [
-        ['@vuepress/google-analytics', { ga: 'G-9M3HSNDJLW' }]
+        ['@vuepress/plugin-google-analytics', { ga: 'G-9M3HSNDJLW' }]
     ]
 }
