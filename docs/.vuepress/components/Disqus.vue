@@ -17,3 +17,8 @@ export default {
     }
 }
 </script>
+<style>
+#disqus_thread {
+    margin-top: 5rem;
+}
+</style>

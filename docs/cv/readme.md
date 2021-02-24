@@ -7,7 +7,7 @@ can also download the full version, the one written here is just a brief
 overview. Also, the [portfolio page](portfolio/) features the projects in a
 more concise way, with links to the code if the projects were open sourced.
 
-<!--<download-button label="PDF version" path="CV-Zlatan_Sicanica.pdf" />-->
+<link-button label="PDF version" path="/assets/application/pdf/cv_zlatan_sicanica.pdf" />
 
 [[toc]]
 

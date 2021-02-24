@@ -1,5 +1,5 @@
 <template>
-    <a class="download-button" :href="path" download>
+    <a class="link-button" :href="path" target="_blank">
         <span class="ri-download-2-fill" /> 
         <span class="label">{{ label }}</span>
     </a>
@@ -16,8 +16,7 @@ export default {
 
 $color-maroon: #660018;
 
-.download-button {
-
+.link-button {
     margin: auto;
     background-color: $color-maroon;
     font-size: 1rem;
@@ -30,6 +29,10 @@ $color-maroon: #660018;
     align-items: baseline;
     justify-content: space-around;
     width: fit-content;
+
+    /* !important because default theme overrides */
+    text-decoration-line: none !important;
+    text-decoration: none !important;
 
     &:hover {
         cursor: pointer;

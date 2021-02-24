@@ -68,6 +68,7 @@ export default {
     }
 
     & > footer {
+        margin-top: 2rem;
         width: 100%;
 
         border-top: 1px solid #eaecef;

@@ -1,7 +1,9 @@
 ---
 home: true
+heroImage: "/assets/img/logo1.png"
 actionText: Portfolio →
 actionLink: /portfolio/
+heroText: null
 features:
 - title: SCADA backend
   details: |

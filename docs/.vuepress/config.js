@@ -17,5 +17,8 @@ module.exports = {
     },
     plugins: [
         ['@vuepress/plugin-google-analytics', { ga: 'G-9M3HSNDJLW' }]
+    ],
+    head: [
+        ['link', {rel: 'icon', type: 'image/svg', href: '/favicon.svg'}]
     ]
 }
