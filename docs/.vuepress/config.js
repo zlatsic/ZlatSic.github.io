@@ -11,7 +11,7 @@ module.exports = {
             {text: 'Home', link: '/'},
             {text: 'Blog', link: '/blog/'},
             {text: 'Portfolio', link: '/portfolio/'},
-            {text: 'CV', link: '/cv/'},
+            {text: 'CV', link: '/cv.html'},
             {text: 'Contact', link: '/contact.html'}
         ]
     },
