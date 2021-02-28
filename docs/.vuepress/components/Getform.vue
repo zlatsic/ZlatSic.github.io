@@ -35,7 +35,7 @@ form {
 
         & > input, & > textarea {
             resize: none;
-            width: 30rem;
+            max-width: 30rem;
         }
     }
 
