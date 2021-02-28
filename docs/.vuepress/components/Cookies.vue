@@ -7,12 +7,16 @@
 <script>
 export default {
     data: function () {
-        return {cookiesDismissed: localStorage.getItem('cookiesDismissed')};
+        return {
+            cookiesDismissed: typeof localStorage ?? localStorage.getItem('cookiesDismissed')
+        };
     },
     methods: {
         dismiss: function(ev) {
-            localStorage.setItem('cookiesDismissed', true);
-            this.cookiesDismissed = true;
+            if (typeof localStorage) {
+                localStorage.setItem('cookiesDismissed', true);
+                this.cookiesDismissed = true;
+            }
         }
     }
 };
