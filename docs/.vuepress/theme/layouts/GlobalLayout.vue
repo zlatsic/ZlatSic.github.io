@@ -15,6 +15,7 @@
                 © 2021, Zlatan Sičanica
             </span>
         </footer>
+        <cookies />
     </div>
 </template>
 
