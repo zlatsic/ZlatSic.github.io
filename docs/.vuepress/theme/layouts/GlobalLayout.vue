@@ -7,7 +7,8 @@
             <div class="social">
                 <span>Social:</span>
                 <a v-for="item in social" :href="item.link" target="blank_">
-                    <span :class="'ri-' + item.icon"i /> {{ item.label }}
+                    <span :class="['ri-' + item.icon, 'icon']" />
+                    <span class="label"> {{ item.label }} </span>
                 </a>
             </div>
             <span class="copyright">
@@ -92,8 +93,14 @@ export default {
                 display: flex;
                 align-items: center;
 
-                & > span {
+                & > .icon {
                     margin-right: 0.15rem;
+                }
+
+                & > .label {
+                    @media (max-width: 768px){
+                        display: none;
+                    }
                 }
             }
         }

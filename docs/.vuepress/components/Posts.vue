@@ -43,13 +43,21 @@ export default {
 
 .blog-view {
     margin: auto;
-    width: 720px;
     & > a {
         & > .post {
             margin: 1rem;
             display: flex;
             align-items: center;
             justify-content: space-between;
+
+            @media (max-width: 768px){
+                flex-direction: column;
+                align-items: flex-start;
+
+                & > .date {
+                    margin-top: 0.4rem;
+                }
+            }
 
             & > .title-with-excerpt {
                 & > .title {
