@@ -18,10 +18,9 @@ features:
     Skillset for single-page application development.
 ---
 
-Welcome to my site! My name is Zlatan Sičanica and, as it is probably obvious
-from the content above, I am a software developer specializing in SCADA
-development and application of artificial intelligence (primarily machine
-learning) to that domain. Here I will banter in the form of blog posts and post
-updates to the projects I am working on. Feel free to browse or get in touch
-with me, I am always looking forward to further discussing any content written
-here.
+Welcome to my site! My name is Zlatan Sičanica and I am a software developer
+specializing in SCADA development and application of artificial intelligence
+(primarily machine learning) to that domain. Here I will banter in the form of
+blog posts and post updates to the projects I am working on. Feel free to
+browse or get in touch with me, I am always looking forward to further
+discussing any content written here.
