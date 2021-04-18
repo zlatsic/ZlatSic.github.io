@@ -93,3 +93,5 @@ my studies with the nordic model, but these are just good wishes as I haven't
 even started the experiments I plan to do. And this is pretty much it, so far.
 Hopefully I do the next check-in in a week or two, it mostly depends on how
 much I will have to write about.
+
+<disqus />
