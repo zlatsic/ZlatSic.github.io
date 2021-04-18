@@ -3,7 +3,7 @@ id: 3
 categories: crypto
 title: Starting out with crypto mining
 excerpt: Detailing my first steps in mining ethereum
-date: 2020-01-21
+date: 2021-01-21
 ---
 
 # {{$frontmatter.title}}

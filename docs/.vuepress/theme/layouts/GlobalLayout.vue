@@ -25,7 +25,7 @@ export default {
         return {
             social: [{
                 label: 'GitHub', icon: 'github-line',
-                link: 'https://github.com/ZlatSic'
+                link: 'https://github.com/zlatsic'
             }, {
                 label: 'LinkedIn', icon: 'linkedin-box-line',
                 link: 'https://www.linkedin.com/in/zlatan-sicanica/'
