@@ -1,6 +1,6 @@
 ---
 id: 5
-title: Hat
+title: Contributions on the hat project
 excerpt: |
     Core libraries for our work at Končar
 thumbnail: '/assets/img/portfolio/thumbnails/hat.png'
