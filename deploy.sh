@@ -21,7 +21,6 @@ git -c user.name=$1 -c user.email=$2 commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:zlatsic/blog-vue.git master:gh-pages
 
 cd -
