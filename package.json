@@ -14,7 +14,8 @@
     "@vuepress/plugin-google-analytics": "^1.8.2",
     "sass": "^1.32.6",
     "sass-loader": "^10.1.1",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "ws": "^7.4.6"
   },
   "dependencies": {
     "remixicon": "^2.5.0"
