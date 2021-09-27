@@ -63,7 +63,7 @@ export default {
                 & > .title {
                     font-size: 2rem;
                     font-weight: 450;
-                    margin-bottom: 5px;
+                    margin-bottom: 0.5rem;
                 }
                 & > .excerpt {
                    font-size: 10pt; 

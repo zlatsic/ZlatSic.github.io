@@ -5,9 +5,9 @@ title: CV
 Here I keep a short rundown of my past working experiences and education. You
 can also download the full version, the one written here is just a brief
 overview. Also, the [portfolio page](portfolio/) features the projects in a
-more concise way, with links to the code if the projects were open sourced.
-
-<link-button label="PDF version" path="/assets/application/pdf/cv_zlatan_sicanica.pdf" />
+more concise way, with links to the code if the projects were open sourced. For
+a PDF format of my CV, containing private information I'd rather not disclose
+publicly, feel free to [contact](contact/) me.
 
 [[toc]]
 

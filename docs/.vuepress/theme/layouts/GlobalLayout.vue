@@ -28,7 +28,7 @@ export default {
                 link: 'https://github.com/zlatsic'
             }, {
                 label: 'LinkedIn', icon: 'linkedin-box-line',
-                link: 'https://www.linkedin.com/in/zlatan-sicanica/'
+                link: 'https://www.linkedin.com/in/zlatsic/'
             }, {
                 label: 'Twitter', icon: 'twitter-line',
                 link: 'https://twitter.com/zlatsic'

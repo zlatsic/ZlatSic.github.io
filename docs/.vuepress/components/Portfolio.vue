@@ -38,8 +38,8 @@ export default {
     & > a {
 
         & > .post-card {
-            max-width: 200px;
-            margin: 10px;
+            width: 12rem;
+            margin: 1rem;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -47,7 +47,7 @@ export default {
             & > .thumbnail {
                 border-radius: 5px;
                 width: 100%;
-                height: 100px;
+                height: 6rem;
                 object-fit: cover;
                 border: 1px solid #660018;
             }
