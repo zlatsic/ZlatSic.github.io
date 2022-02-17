@@ -1,6 +1,6 @@
 module.exports = {
     title: 'zlatsic',
-    description: 'SCADA and AI expert',
+    description: 'SCADA and AI developer',
     markdown: {
         toc: {
             includeLevel: [1, 2, 3, 4]
