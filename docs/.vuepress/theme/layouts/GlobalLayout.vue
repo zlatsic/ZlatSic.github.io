@@ -12,7 +12,7 @@
                 </a>
             </div>
             <span class="copyright">
-                © 2021, Zlatan Sičanica
+                © {{ year }}, Zlatan Sičanica
             </span>
         </footer>
         <cookies />
@@ -23,6 +23,7 @@
 export default {
     data: () => {
         return {
+	    year: new Date().getFullYear(),
             social: [{
                 label: 'GitHub', icon: 'github-line',
                 link: 'https://github.com/zlatsic'
@@ -38,9 +39,6 @@ export default {
             }, {
                 label: 'YouTube', icon: 'youtube-line',
                 link: 'https://www.youtube.com/channel/UCCbEay_pbywwDnoMZzxqaow/featured'
-            }, {
-                label: 'Twitch', icon: 'twitch-line',
-                link: 'https://www.twitch.tv/zlatsic'
             }]
         };
     },
