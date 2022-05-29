@@ -5,17 +5,18 @@ actionText: Portfolio →
 actionLink: /portfolio/
 heroText: null
 features:
-- title: SCADA backend
+- title: Python development
   details: |
-    Implementation of SCADA backends and middleware. Primarily in Python at the
-    moment.
+    Senior-level knowledge of Python, mostly focusing on asyncio, but with some
+    level of knowledge of web frameworks.
 - title: Machine learning
   details: |
-    Application of machine learning knowledge to SCADA-related problems using
-    tools like sklearn or tensorflow.
-- title: SCADA frontend
+    Application of machine learning to SCADA-related problems using tools like
+    sklearn or tensorflow.
+- title: Tech lead
   details: |
-    Skillset for single-page application development.
+    Planning and distribution of technical assignments in a team of
+    programmers.
 ---
 
 Welcome to my site! My name is Zlatan Sičanica and I am a software developer

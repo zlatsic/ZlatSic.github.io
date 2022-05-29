@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'zlatsic',
+    title: 'Zlatan Sičanica',
     description: 'SCADA and AI developer',
     markdown: {
         toc: {
