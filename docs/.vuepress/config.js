@@ -15,10 +15,14 @@ module.exports = {
             {text: 'Contact', link: '/contact.html'}
         ]
     },
-    plugins: [
-        ['@vuepress/plugin-google-analytics', { ga: 'G-9M3HSNDJLW' }]
-    ],
     head: [
-        ['link', {rel: 'icon', type: 'image/svg', href: '/favicon.svg'}]
+        ['link', {rel: 'icon', type: 'image/svg', href: '/favicon.svg'}],
+	['script', {
+	    async: true,
+	    src: 'https://www.googletagmanager.com/gtag/js?id=G-9M3HSNDJLW',
+	}],
+	['script', {}, [
+	    "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-9M3HSNDJLW');",
+	]],
     ]
 }
