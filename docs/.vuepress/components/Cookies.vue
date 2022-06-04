@@ -7,9 +7,12 @@
 <script>
 export default {
     data: function () {
-        return {
-            cookiesDismissed: typeof localStorage ?? localStorage.getItem('cookiesDismissed')
-        };
+	try {
+	    return { cookiesDismissed: localStorage.getItem('cookiesDismissed') }
+	} catch (e) {
+	    console.log('Failed to access localStorage', e)
+	    return { cookiesDismissed: false }
+	}
     },
     methods: {
         dismiss: function(ev) {
@@ -34,14 +37,13 @@ $color-maroon: #660018;
     background-color: white;
     width: fit-content;
     border-radius: 5px;
-    border: 2px solid #660018;
+    border: 1.5px solid #660018;
     padding: 0.5rem;
 
     & > button {
         margin-left: 1rem;
 
         background-color: $color-maroon;
-        font-size: 1rem;
         color: #fff;
         padding: 0.1rem 0.4rem;
         border-radius: 4px;

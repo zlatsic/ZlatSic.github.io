@@ -104,5 +104,10 @@ export default {
             }
         }
     }
+
+    /*inherited from the default theme*/
+    .content__footer {
+	display: none;
+    }
 }
 </style>
