@@ -9,9 +9,9 @@ export default {
     data: function () {
 	let cookiesDismissed = false;
 	try {
-	    cookiesDismissed = localStorage.getItem('cookiesDismissed')
+	    cookiesDismissed = sessionStorage.getItem('cookiesDismissed')
 	} catch (e) {
-	    console.warn('Failed to access localStorage', e)
+	    console.warn('Failed to access sessionStorage', e)
 	}
 	return { cookiesDismissed: cookiesDismissed }
     },
@@ -19,9 +19,9 @@ export default {
         dismiss: function(ev) {
 	    this.cookiesDismissed = true;
 	    try {
-		localStorage.setItem('cookiesDismissed', true)
+		sessionStorage.setItem('cookiesDismissed', true)
 	    } catch (e) {
-		console.warn('Failed to access localStorage', e)
+		console.warn('Failed to access sessionStorage', e)
 	    }
         }
     }
