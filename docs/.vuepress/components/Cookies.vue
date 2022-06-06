@@ -7,19 +7,22 @@
 <script>
 export default {
     data: function () {
+	let cookiesDismissed = false;
 	try {
-	    return { cookiesDismissed: localStorage.getItem('cookiesDismissed') }
+	    cookiesDismissed = localStorage.getItem('cookiesDismissed')
 	} catch (e) {
-	    console.log('Failed to access localStorage', e)
-	    return { cookiesDismissed: false }
+	    console.warn('Failed to access localStorage', e)
 	}
+	return { cookiesDismissed: cookiesDismissed }
     },
     methods: {
         dismiss: function(ev) {
-            if (typeof localStorage) {
-                localStorage.setItem('cookiesDismissed', true);
-                this.cookiesDismissed = true;
-            }
+	    this.cookiesDismissed = true;
+	    try {
+		localStorage.setItem('cookiesDismissed', true)
+	    } catch (e) {
+		console.warn('Failed to access localStorage', e)
+	    }
         }
     }
 };
