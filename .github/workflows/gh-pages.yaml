@@ -7,11 +7,13 @@ jobs:
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v3
       - name: Install and Build
-        run: npm run docs:build
-      - name: Deploy 🚀
+        run: |
+          yarn install
+          yarn run docs:build
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages
