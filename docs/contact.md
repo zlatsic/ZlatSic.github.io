@@ -2,7 +2,11 @@
 title: Contact
 ---
 
-The footer of this site features some of my social networks, I respond to DMs
-on them. You can also send me an e-mail using this form.
+You can reach me for any personal or business inquiries over the following
+social networks:
 
-<getform />
+* [GitHub](https://github.com/zlatsic)
+* [LinkedIn](https://linkedin.com/in/zlatsic/)
+* [Twitter](https://twitter.com/zlatsic)
+* [Instagram](https://instagram.com/zlatsic/)
+* [YouTube](https://youtube.com/channel/UCCbEay_pbywwDnoMZzxqaow)
