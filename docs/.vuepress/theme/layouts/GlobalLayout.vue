@@ -29,16 +29,16 @@ export default {
                 link: 'https://github.com/zlatsic'
             }, {
                 label: 'LinkedIn', icon: 'linkedin-box-line',
-                link: 'https://www.linkedin.com/in/zlatsic/'
+                link: 'https://linkedin.com/in/zlatsic/'
             }, {
                 label: 'Twitter', icon: 'twitter-line',
                 link: 'https://twitter.com/zlatsic'
             }, {
                 label: 'Instagram', icon: 'instagram-line',
-                link: 'https://www.instagram.com/zlatsic/'
+                link: 'https://instagram.com/zlatsic/'
             }, {
                 label: 'YouTube', icon: 'youtube-line',
-                link: 'https://www.youtube.com/channel/UCCbEay_pbywwDnoMZzxqaow/featured'
+                link: 'https://youtube.com/channel/UCCbEay_pbywwDnoMZzxqaow'
             }]
         };
     },
