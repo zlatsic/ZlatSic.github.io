@@ -31,7 +31,8 @@ amount of container instances, simulating horizontal scaling.
 I am very glad to have access to this new tool, but I still see some potential
 for improvements in this realm in general. Kubernetes seem like a natural
 progression from this point and I hope to have a chance to use them in my
-future projects. 
+future projects. I have also tried using GCP to host a docker image, which, if
+you're reading this post, still works great.
 
 ## Python frameworks
 
