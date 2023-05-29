@@ -13,6 +13,8 @@ jobs:
         run: |
           yarn install
           yarn run docs:build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
