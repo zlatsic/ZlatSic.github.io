@@ -6,15 +6,22 @@ Here I keep a short rundown of my past working experiences and education. Also,
 the [portfolio page](portfolio/) features the projects in a more concise way,
 with links to the code if the projects were open sourced. For a PDF format of
 my CV, containing additional contact information I'd rather not disclose
-publicly, feel free to [contact](contact/) me via the provided form.
+publicly, feel free to reach out as specified in the [contact page](contact/).
 
 [[toc]]
 
 # Work
 
-## Končar (2016-present)
+## Bloomreach (2023)
 
-Position: Softwar engineer
+Position: Senior software engineer
+
+E-commerce customer data pipeline development and maintenence in Python and Go.
+Use of tech like Kubernetes, Flask, document object databases, etc.
+
+## Končar - Digital (2016)
+
+Position: Senior software engineer
 
 Implementation of SCADA backends and middleware containing business logic. Some
 experience in development of single-page applications using frameworks Angular,
