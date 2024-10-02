@@ -6,11 +6,20 @@ Here I keep a short rundown of my past working experiences and education. Also,
 the [portfolio page](portfolio/) features the projects in a more concise way,
 with links to the code if the projects were open sourced. For a PDF format of
 my CV, containing additional contact information I'd rather not disclose
-publicly, feel free to reach out as specified in the [contact page](contact/).
+publicly, feel free to reach out to any socials mentioned in the
+[contact page](contact/).
 
 [[toc]]
 
 # Work
+
+## Happening (2024)
+
+Position: Senior software engineer
+
+Backend development in Go for a sports betting platform. Microservice
+architecture using Kubernetes. Work with different kinds of relational/NoSQL
+databases, caches, etc.
 
 ## Bloomreach (2023)
 
