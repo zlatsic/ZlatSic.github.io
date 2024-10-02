@@ -31,7 +31,7 @@ export default {
                 label: 'LinkedIn', icon: 'linkedin-box-line',
                 link: 'https://linkedin.com/in/zlatsic/'
             }, {
-                label: 'Twitter', icon: 'twitter-line',
+                label: 'Twitter', icon: 'twitter-x-line',
                 link: 'https://twitter.com/zlatsic'
             }, {
                 label: 'Instagram', icon: 'instagram-line',

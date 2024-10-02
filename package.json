@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@vuepress/core": "^1.9",
-    "remixicon": "^2.5"
+    "remixicon": "^4.3.0"
   },
   "repository": "git@github.com:zlatsic/ZlatSic.github.io.git"
 }
