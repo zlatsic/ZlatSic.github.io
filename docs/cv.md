@@ -52,7 +52,7 @@ websites and MSSQL backends.
 
 ## Faculty of Electrical Engineering and Computing, University of Zagreb
 
-### Doctor of Science (2019-ongoing)
+### Doctor of Science (2019-2025)
 
 Doctoral study focusing on application of machine learning to SCADA systems.
 My research focused on machine learning application to SCADA systems. It
